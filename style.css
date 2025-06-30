@@ -1,0 +1,76 @@
+body{
+    background-color: #055E68;
+}
+
+.container{
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #B9D2D2;
+    border: 2px solid #0DE2EA;
+    border-radius: 10px;
+    box-shadow: 2px 10px 10px rgba(34, 40, 49, 0.5) ;
+}
+
+h2{
+    margin-top: 0;
+    color: #261D1D;
+    text-align: center;
+    text-decoration: underline;
+}
+
+font{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: large;
+    font-weight: 600px;
+    margin-bottom: 15px;
+    color: #261D1D;
+}
+
+input[type="number"],
+select{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(34, 40, 49, 0.25);
+    margin-bottom: 10px;
+}
+
+input[type="number"]:focus,
+select:focus{
+    outline: none;
+    box-shadow: 0 0 5px #0DE2EA;
+}
+
+select{
+    width: 100%;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #055E68;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: #06648C;
+}
+
+#result{
+    font-weight: bold;
+    margin-top: 20px;
+    color: #06648C;
+}
